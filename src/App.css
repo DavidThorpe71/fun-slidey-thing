@@ -1,7 +1,12 @@
+.container {
+  background-color: #20232f;
+}
+
 .container > div > div {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* height: 200px !important; */
 }
 
 .first-bit {
@@ -16,7 +21,7 @@
 .first-bit,
 .second-bit {
   position: absolute;
-  width: 100%;
+  width: 120%;
   height: 100%;
   cursor: pointer;
 }

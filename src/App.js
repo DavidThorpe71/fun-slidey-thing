@@ -42,7 +42,6 @@ class App extends Component {
             handleClick={() => this.scroll(0)}
           />
         </Parallax>
-
       </div>
     );
   }

@@ -13,7 +13,7 @@ const EachPage = ({ offset, gradient, title, caption, handleClick }) => {
       </ParallaxLayer>
       <ParallaxLayer
         offset={offset}
-        speed={0.5}
+        speed={0.2}
         onClick={handleClick}
       >
         <div className={`second-bit ${gradient}`}></div>
